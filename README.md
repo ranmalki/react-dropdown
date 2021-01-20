@@ -20,6 +20,18 @@
 - `DropdownMenu` - The white box that opens when clicking `DropdownButton`
 - `DropdownItem` - An item in the `DropdownMenu`
 
+The structure should look like:
+```html
+<Dropdown>
+   <DropdownButton>Dropdown button</DropdownButton>
+   <DropdownMenu>
+      <DropdownItem>Action</DropdownItem>
+      <DropdownItem>Another action</DropdownItem>
+      <DropdownItem>Something else</DropdownItem>
+   </DropdownMenu>
+</Dropdown>
+```
+
 3. Make it generic! The user might want to have several dropdown across his app.
 Take in consideration that every dropdown may contain different items.
 
