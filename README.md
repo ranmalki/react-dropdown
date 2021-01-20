@@ -17,7 +17,7 @@
 2. You need to have 4 components:
 - `Dropdown` - Wraps everything
 - `DropdownButton` - The button that opens/closes the dropdown menu
-- `DropdownMenu` - The white box that opens when clicking `DropdownButton`
+- `DropdownMenu` - The white box that appears when clicking `DropdownButton`
 - `DropdownItem` - An item in the `DropdownMenu`
 
 The structure should look like:
